@@ -128,29 +128,7 @@ int row_check(int sudoku[][10])
   }
  return berror;
 
-/*
- int c[5] = {0};
-   for (int i=0; i<N; i++)
-  {
-      for (int j=0; j<N; j++)
-      {
-         c[ sudoku[i][j] ] ++;
-      }
-      for (int k=1; k<=N; k++)
-      {
-       if(c[k] != 1 && c[k]!= 0)
-       {
-           printf("\n NOT VALID\nThe Value %d came %d times in %d row\n",k,c[k],i+1);
-           return false;
-       }
-      }
-      for(int k=1;k<=N; k++)
-         {
-             c[k] = 0;
-         }
-  }
- return true;
-*/
+
 }
 
 
