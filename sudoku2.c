@@ -67,36 +67,7 @@ void su_display()
 
 void display(int sudoku[][10])
 {
-  /*  int n=9, div;
-    if(N==9)
-        div=3;
-    else if (N==4)
-        div=2;
-    for(int i=0; i<N; i++)
-    {
-        printf("\t      ");
-        for(int j=1; j<N; j++)
-        {
-            if(i%div==0)
-            printf("  __ ");
-        }
-        printf("\n");
-        printf("\t      |");
-        for(int j=0; j<N; j++)
-        {
-            printf(" %d  ",sudoku[i][j]);
-            if((j+1)%div==0)
-            printf("|");
-        }
-        printf("\n");
-    }
-
-    printf("\t      ");
-    for(int j=1; j<N; j++)
-    {
-        printf("  __ ");
-    }
-*/
+ 
  int div;
     if(N == 9)
       div=3;
